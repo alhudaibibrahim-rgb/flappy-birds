@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Flappy Wings – a Flappy Bird-style browser game built with HTML5 Canvas and vanilla JavaScript." />
+  <meta name="theme-color" content="#4ec0ca" />
+  <title>Flappy Wings</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <h1>Flappy <span>Wings</span></h1>
+      <button id="muteBtn" class="icon-btn" aria-label="Toggle sound" title="Toggle sound (M)">🔊</button>
+    </header>
+
+    <div class="stage">
+      <canvas id="game" width="400" height="600" aria-label="Flappy Wings game canvas"></canvas>
+    </div>
+
+    <section class="help">
+      <p><kbd>Space</kbd> / <kbd>↑</kbd> / click / tap to flap &nbsp;·&nbsp; <kbd>P</kbd> pause &nbsp;·&nbsp; <kbd>M</kbd> mute</p>
+    </section>
+
+    <footer class="foot">
+      <p>Fan-made tribute to the classic one-button flyer. No original assets used.</p>
+    </footer>
+  </main>
+
+  <script src="js/audio.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

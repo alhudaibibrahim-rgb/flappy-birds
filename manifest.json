@@ -1,0 +1,13 @@
+{
+  "name": "Flappy Wings",
+  "short_name": "FlappyWings",
+  "description": "A Flappy Bird-style one-button browser game.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1e2a3a",
+  "theme_color": "#4ec0ca",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
